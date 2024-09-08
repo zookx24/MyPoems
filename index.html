@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Poems I Wrote</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <h1 id="randomText">Random Text Will Appear Here</h1>
+  <button onclick="fetchRandomText()">Show Random Text</button>
+
+  <script>
+    // Function to fetch random text from the server
+    async function fetchRandomText() {
+      const response = await fetch('/random-text');
+      const text = await response.text();
+      document.getElementById("randomText").innerText = text;
+    }
+  </script>
+
+</body>
+</html>

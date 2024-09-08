@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  h1 {
+    color: #1d1b1b;
+  }
+button {
+    background-color: #030303; /* Green background */
+    border: none;              /* Remove default border */
+    color: white;               /* White text */
+    padding: 15px 32px;         /* Padding inside the button */
+    text-align: center;         /* Center the text */
+    text-decoration: none;      /* Remove text underline */
+    display: inline-block;      /* Make the button inline */
+    font-size: 16px;            /* Font size */
+    margin: 10px 0;             /* Space around the button */
+    cursor: pointer;            /* Pointer cursor on hover */
+    border-radius: 8px;         /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+   /* Button hover effect */
+  button:hover {
+    background-color: #5a237e;  /* Darker green on hover */
+  }
+  
+  
